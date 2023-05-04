@@ -1,0 +1,9 @@
+<h1> Welcome to the Yelp Restaurant MVP </h1>
+
+<div class="container">
+  <ul>
+    <% @restaurants.each do |restaurant| %>
+      <li> <b> Name: </b> <%= restaurant.name %> <b> Address: </b> <%= restaurant.address %> </li>
+    <% end %>
+  </ul>
+</div>
